@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Akira Expanded Demo";
+    src: url("fonts/Akira\ Expanded\ Demo.otf");
+}
+@font-face{
+    font-family: "DM Sans";
+    src:url("fonts/DMSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Arimo";
+    src: url("fonts/Arimo-Italic-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-image: url("images/background-img-1.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), 80%, rgba(0, 0, 0, 0.2));
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo{
+    padding: 38px 0px 0px 107px;
+}
+.navbar-logo img {
+    height: 60px;
+    width: auto;
+}
+.navbar-links {
+    padding: 38px 107px 0px 0px;
+    display: flex;
+    font-family: "DM Sans";
+    gap: 20px;
+}
+.navbar-links a {
+    color: #B0B0B0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}  
+.mid-content{
+    text-align: center;
+    margin-top: 190px;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #B0B0B0;
+}
+.disabled{
+    cursor: not-allowed;
+}
+.button{
+    font-family: "DM Sans";
+    font-size: 17px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    width: 210px;
+    height: 56px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 28px;
+    background: linear-gradient(to left, #ffa53e 15%, #BF35A9 50%, #2f82ff 85%);
+    cursor: pointer;
+}
+.click-here{
+    width: 228px;
+    height: auto;
+    transform: rotate(-75deg);
+    margin: -75px 0px 0px -250px;
+}
+.mid-content p{
+    font-family: "Arimo";
+    color: #B0B0B0;
+    font-size: 18px;
+    letter-spacing: 4.5px;
+}
+.mid-content h1{
+    font-family: "Akira Expanded Demo";
+    color: white;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.span-1{
+    letter-spacing: 4.5px;
+    font-size: 32pt;
+}
+.span-2{
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 55pt;
+    transform: scale(1.2, 1.2);
+    background: linear-gradient(135deg, white 5%, rgba(255, 255, 255, 0.795) 65%,rgb(0, 0, 0) 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .section-1{
+    background-image: url(images/section1-back.jpg);
+    background-size: cover;
+    height: 607px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.gradient-style{
+    background-image: linear-gradient(to bottom, #FF9900 1%, #F0D213 95%);
+    height: 121px;
+}
+
+footer{
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    width: 280px;
+    height: auto;
+}
+svg{
+    stroke: #ffffff;
+    fill:#FE0A49;
+    width: 50px;
+    height: auto;
+    background-color: #FE0A49;
+    border-radius: 100%;
+    padding: 3px;
+} */
+
+/* @media screen and (max-width: 850px){
+    .span-1{
+        font-size: 24pt;
+    }
+    .span-2{
+        font-size: 41.25pt;
+    }
+    .mid-content p{
+        font-size: 15px;
+    }
+    .button{
+        font-size: 15px;
+        width: 200px;
+        height: 53px;
+    }
+} */
+
+/* @media screen and (max-width: 750px){
+    .span-1{
+        font-size: 20pt;
+    }
+    .span-2{
+        font-size: 41.25pt;
+    }
+    .mid-content p{
+        font-size: 15px;
+    }
+    .button{
+        font-size: 15px;
+        width: 200px;
+        height: 53px;
+    }
+} */
