@@ -2,15 +2,6 @@
     font-family: "Akira Expanded Demo";
     src: url("fonts/Akira\ Expanded\ Demo.otf");
 }
-@font-face{
-    font-family: "DM Sans";
-    src:url("fonts/DMSans-Regular.ttf");
-}
-@font-face {
-    font-family: "Arimo";
-    src: url("fonts/Arimo-Italic-VariableFont_wght.ttf");
-}
-
 *{
     margin: 0px;
     padding: 0px;
@@ -27,6 +18,8 @@ header{
 main{
     background-image: linear-gradient(rgba(0, 0, 0, 0.70), 80%, rgba(0, 0, 0, 0.2));
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .navbar {
     display: flex;
@@ -54,7 +47,7 @@ main{
 }  
 .mid-content{
     text-align: center;
-    margin-top: 190px;
+    margin-top: 10%;
 }
 .active{
     padding-bottom: 2px;
@@ -73,11 +66,10 @@ main{
     color: white;
     width: 210px;
     height: 56px;
-    margin-top: 25px;
     border: none;
     border-radius: 28px;
-    background: linear-gradient(to left, #ffa53e 15%, #BF35A9 50%, #2f82ff 85%);
     cursor: pointer;
+    margin-top: 10px;
 }
 .click-here{
     width: 228px;
@@ -86,7 +78,7 @@ main{
     margin: -75px 0px 0px -250px;
 }
 .mid-content p{
-    font-family: "Arimo";
+    font-family: "DM Mono";
     color: #B0B0B0;
     font-size: 18px;
     letter-spacing: 4.5px;
@@ -94,9 +86,8 @@ main{
 .mid-content h1{
     font-family: "Akira Expanded Demo";
     color: white;
-    text-align: center;
     line-height: 1;
-    margin-bottom: 10px;
+    padding: 10px 0px;
 }
 .span-1{
     letter-spacing: 4.5px;
@@ -111,18 +102,67 @@ main{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/* .section-1{
-    background-image: url(images/section1-back.jpg);
+.section-1{
+    background-image: url(images/section1-back2.jpg);
     background-size: cover;
     height: 607px;
     background-repeat: no-repeat;
     background-position: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+    filter: saturate(175%) contrast(85%);
 }
 .gradient-style{
     background-image: linear-gradient(to bottom, #FF9900 1%, #F0D213 95%);
     height: 121px;
 }
-
+.about-text{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: -40px;
+}
+.about-text p{
+    font-family: "DM Mono";
+    font-size: 23px;
+    padding: 10px 0px;
+    line-height: 1.2;
+}
+.about-text img{
+    width: 600px;
+    height: auto;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:60vh;
+    background-image: linear-gradient(to bottom, black -35%, white 15%);
+    text-align: center;
+}
+.section-2 p{
+    padding: 10px 0px;
+}
+.section-3{
+    height: 76vh;
+    display: flex;
+    background-image: linear-gradient(215deg, #FFB084 0%, #F97124, #FF004D 85%);
+}
+.IEEE-info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0px 131px;
+    justify-content: center;
+    line-height: 1;
+    
+}
+picture{
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 100px;
+}
 footer{
     background-color: black;
     height: 50vh;
@@ -134,15 +174,6 @@ footer img{
     width: 280px;
     height: auto;
 }
-svg{
-    stroke: #ffffff;
-    fill:#FE0A49;
-    width: 50px;
-    height: auto;
-    background-color: #FE0A49;
-    border-radius: 100%;
-    padding: 3px;
-} */
 
 /* @media screen and (max-width: 850px){
     .span-1{
